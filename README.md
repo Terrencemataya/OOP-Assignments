@@ -1,2 +1,2 @@
 # OOP-Assignments
-Work done in the POP class 
+Work done in the OOP class 
