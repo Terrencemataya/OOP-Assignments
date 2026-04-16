@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int arr[2][3] = {
+        {10, 20, 30},
+        {40, 50, 60}
+    };
+
+    int *p = &arr[0][0];
+
+    printf("Value: %d\n", arr[1][2]);
+    printf("Pointer access: %d\n", *(p + 5));
+
+    return 0;
+}
